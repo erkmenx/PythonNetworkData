@@ -1,0 +1,20 @@
+#### simple element ve complex element olarak 2ye ayrılan elementlerden oluşur
+
+
+örneğin:
+
+<people>
+  <person>
+    (<name>Erkmen</name>)
+    (<number>040170049</number>)       Parantez içindekiler simple elementtir.
+  </person>
+[  <person>
+    <name>Hakan</name>
+    <number>1231231</number>
+  </person> ]            Köşeli parantezler içine alınan kısım kopmleks element olarak geçer.
+</people>
+
+
+Amaç sistemlerin, yapı halindeki verileri birbirirleri ile paylaşabilmesini sağlamaktır
+
+-----Tags, attributes , serialize de-serialize.-----
